@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class MiddlewareDemoController {
-
+    //Testing build
     @RequestMapping(value = "/getDateAndTime")
     public ResponseEntity<String> getTimeDate(){
         ResponseEntity<String> response;
